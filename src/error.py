@@ -62,6 +62,7 @@ Errors = {
     openai.InternalServerError.__name__: "Query failed due to API returning an internal server error.",
     "content_filter": "Response stopped due to content violation.",
     "ERR_generic": "Query failed due to error",
+    "NotFoundError": "Query died somehow?"
 }
 
 # Modify and run() again till all Queries are either succesful or have failed unrecoverably.
